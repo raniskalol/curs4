@@ -1,0 +1,700 @@
+.sec{
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+     scroll-behavior: smooth;
+    transition: .3s; 
+    font-family: 'm1';
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'm1';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'm2';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'm3';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'm4';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+.ftbb{
+    opacity: 0;
+}
+.burger img{
+    margin-top: -50px;
+    opacity: 0;
+}
+/*  */
+.a1{ 
+    margin: 0 auto;
+    width: 1900px;
+    height: 1170px;
+}
+.a2{ 
+    margin: 0 auto;
+    width: 1400px;
+    height: 5570px;
+}
+header{ margin: 0 auto;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.hbtn{font-size: 25px;
+    position: relative;
+    left: 360px;
+    top: -25px;
+    margin-left: 50px;
+}
+.logo{ left: 20px;
+    position: relative;
+    top: 20px;
+}
+.hbtn:hover{ transition-duration: 0s;
+    border-bottom: 2px solid #E93400;
+}
+.search{width: 300px;
+    height: 50px;
+    position: relative;
+    top: -52px;
+    left: 600px;
+}
+* {box-sizing: border-box;}
+form { left: 270px;
+    top: -80px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+input { font-size: 18px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  border: 2px solid #E93400;
+  border-radius: 5px;
+  outline: none;
+  background: rgb(255, 255, 255);
+  color: #000000;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #E93400;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  content: "";
+  
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.logo1{top: -115px;
+    position: relative;
+    left: 1230px;
+    padding-left: -15px;
+
+}
+
+.log1 img:hover{
+    transform: scale(1.1);
+
+}
+button:hover{
+    
+    background-color: #ff5c2f;
+}
+.btn{
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #E93400;
+    border-radius: 10px;
+}
+.btn1{ 
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #FF9901;
+    border-radius: 10px;
+}
+.btn:hover{
+    
+}
+.buttons{ text-align: center;
+    position: relative;
+    top: -50px;
+}
+/* 111111111111111111 */
+/* 22222222 */
+.txtd{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 14px;
+    color: #585858;
+
+}
+.arb{color: #000000;
+    font-size: 16px;
+}
+.txtd1{
+    position: relative;
+    left: 50px;
+    top: 90px;
+    font-size: 30px;
+    font-family: m2;
+}
+.cardd{ width: 1500px;  text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 350px;
+}
+.card{ display: inline-block;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    height: 150px;
+    background-color: #f7f7f7;
+    width: 200px;
+}
+.cardtxt{
+    font-size: 19px;
+    font-family: m3;
+}
+.txtd2{
+    position: relative;
+    left: 50px;
+    margin-top: -10px;
+    font-size: 30px;
+    font-family: m2;
+}
+.dcard{
+    margin-top: 40px;
+
+}
+
+/* 333333 */
+.dd2{ text-align: center; margin: 0 auto;
+    width: 1400px; position: relative; left: 45px;
+    margin-top: -10px;
+}
+.hit{ 
+    
+    position: relative;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    
+    top: 50px;
+     text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+.htext p1{ font-size: 20px;
+    position: relative;
+    top: 10px;
+    font-family: 'm3';
+}
+.htext p2{ font-size: 22px;
+    position: relative;
+    top: 30px;
+    left: -61px;
+    font-family: 'm1';
+}
+.htext p3{ font-size: 16px;color: #3f3f3f;
+    position: relative;left: -61px;
+    top: 30px;
+    font-family: 'm1';
+}
+.htext p4{ font-size: 30px;
+    position: relative;
+    left: -61px;
+    top: 70px;
+    position: relative;
+    
+    font-family: 'm1';
+}
+.htext{
+    margin-top: 30px;
+}
+.bab img{ position: relative;
+    top: 15px;
+    width:90%;
+}
+.himg1{
+    position: relative;
+    left: 60px;
+    top:75px;
+}
+.str{
+    position: relative;
+    top: -440px;
+    left: 1303px;
+}
+
+.txtd1{
+    position: relative;
+    font-size: 30px;
+    font-family: m3;
+    top: 30px;
+
+}
+.dcard{
+    position: relative;
+    margin-top: 70px;
+}
+.dtext{ left: 250px;
+    top: -120px;
+    position: relative;
+}
+.dtext p1{
+    font-size: 23px;
+    font-family: m2;
+}
+.dtext p3{
+    color: #3f3f3f;
+}
+.dtext2{ font-size: 25px;
+    position: relative;
+    left: 250px;
+    top: -110px;
+}
+.dtext2 img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.zcx{
+    position: relative;
+    top: -5px;
+}
+.dtext2 img:hover{ cursor: pointer;
+    transform: scale(1.2);
+}
+.dimg:hover{
+cursor: pointer;}
+.clos1 img:hover{ cursor: pointer;
+    transform: scale(1.1);
+}
+.clos{
+    position: relative;
+    left: 1000px;
+    top: -240px;
+}
+.clos3{
+    position: relative;
+    font-size: 29px;
+    font-family: m4;
+    left: 940px;
+    top: -180px;
+}
+.clos4{ width: 300px; background-color: #f7f5f5;
+    height: 150px;
+    position: relative;
+    font-size: 25px;
+    font-family: m3;
+    text-align: center;
+    left: 1100px;
+    top: -320px;
+}
+.zxc{ text-align: center; width: 200px;
+    position: relative;
+    top: 50px;
+    padding: 15px 20px 15px 20px;
+    
+    background-color: #f14a1c;
+    color: #ffffff;
+}
+.zxc:hover{
+    background-color: #E93400;
+}
+.clos4 h1{
+    position: relative;
+    font-size: 25px;
+    font-family: m3;
+    top: 20px;
+}
+
+
+
+
+
+/* FOOOTER */
+.rs{ text-align: center;font-size: 25px;
+    margin-top: 200px;
+}
+
+.io{
+    padding: 21px 40px 21px 40px;
+    background-color: #FF9901;
+    color: white;
+    position: relative;
+    
+    top: 60px;
+    font-size: 21px;
+    font-family: m4;
+    border-radius: 15px;
+}
+footer{ width: 1400px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: -250px;
+}
+.ftx1{position: relative;
+    left: 25px;
+    top: 15px;
+    width: 250px;
+    font-size: 13px;
+
+}
+.ftx2{ 
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+.ftx4 { font-size: 17px;
+    margin-top: 5px;
+    position: relative;
+    left: 400px;
+    top: -130px;
+}
+.ftx3 { margin-left: 50px; text-align: center;
+    top: 40px;
+    position: relative;
+    left: -120px;
+    display: inline-block;
+}
+.ftx5 a{ font-size: 18px;
+    font-family: m4;
+    margin-top: 5px;
+    position: relative;
+    left: 400px;
+    top: -130px;
+}
+.kont{position: relative;
+    left: 560px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+color: #ffffff;
+top: -235px;
+}
+.kont p4{
+    font-size: 14px;
+    color: #7e7e7e;
+    position: relative;
+    
+    
+}
+.kont p2{
+    position: relative;
+    top: 15px; 
+
+    
+}
+.kont p3{
+    position: relative;
+    top: 30px;
+    
+}
+.kont p5{
+    position: relative;
+    top: 15px; font-size: 14px;
+    color: #7e7e7e;
+
+    
+}
+.logoos{
+    position: relative;
+    top: 40px;
+    
+}
+.logoos img{
+    width: 3%;
+}
+.logoos img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.ftx3 { margin-left: 50px; text-align: center;
+    top: 40px;
+    position: relative;
+    left: -220px;
+    display: inline-block;
+}
+
+.text1{
+    color: #3f3f3f;
+}
+.sp{ font-family: m3;
+    color: black;
+}
+.kart{
+
+    background-color: #f1f1f100;
+}
+.kart1 img{ min-width: 900px;
+    min-height: 750px;
+    max-width: 900px;
+    max-height: 750px;
+    position: relative;
+    top: 20px;
+    
+}
+.kart1 img:hover{
+    opacity: 1;
+}
+.kart2{ font-family: m2;
+    width: 300px;
+    font-size: 25px;
+    position: relative;
+    left: 970px;
+    top: -630px;
+}
+
+.kart p3{
+    font-size: 28px;
+    font-family: m3;
+    color: ;
+}
+.kart3{ color: white;
+    padding: 15px 25px 15px 25px;
+    background-color: #f14a1c;
+}
+.kkk{ cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.kart3:hover{ color: white;
+    border-radius: 15px;
+    background-color: #ff3700;
+}
+.kart p4{ position: relative;
+    top: -10px;
+    font-size: 15px;
+    color:rgb(4, 209, 21);
+}
+.kart4{
+    font-size: 22px;
+    
+}
+.kart4 h1{
+    font-size: 24px;
+}
+@media screen and (max-width: 480px) {
+
+
+    .a1{
+        width: 400px;
+    }
+    .a2{
+        width: 400px;
+    }
+    header{
+    width: 400px;
+    
+    }
+    .hbtn{ position: relative;
+        margin-left: 5px;
+        left:150px;
+        top: -10px;
+        font-size: 12px;
+    }
+    .logo img{
+    
+        width: 30%;
+    }
+    .search{
+        width: 60px;
+    }
+    form{ left: -30px;
+        top: 00px;
+        width: 300px;
+        height: 30px;
+    
+    }
+    input{ height: 40px;
+        font-size: 21px;
+    }
+    button{
+        width: 40px;
+        height: 40px;
+    }
+    .buttons{
+        top: 200px;
+    }
+    button img{ position: relative;
+        top: 3px;
+        width: 15px;
+        height: 15px;
+    }
+    input{ padding-left: 0px;
+        font-size: 15px;
+    }
+    .logo1{ top: -110px;
+        position: relative;
+        left: 340px;
+    }
+    .logo1 img{ display: flex; 
+        width:25px;
+        height: 25px;
+    }
+    .fon img{
+        width: 400px;
+    }
+    .buttons{
+        position: relative;
+        left: 10000px;
+    }
+    .men{ top: -100px;
+        position: relative;
+        left: -50px;
+    }
+    .ftbb{ text-align: center;
+        opacity: 1;
+        position: relative;
+        top: -1500px;
+        left: -15px;
+    }
+    footer{
+        position: relative;
+        left: 1000px;
+    }
+    .a1{
+        height:760px;
+    }
+    .txtd{ left: 30px;
+        top: -100px;
+
+    }
+    .txtd1{left: 30px;
+        top: -100px;
+    }
+    .cardd{ margin-bottom: 550px;
+        width: 400px; position: relative;
+        left: -15px; top: -170px;
+    }
+    .card{ margin: 5px 5px 5px 5px;
+        width: 150px;
+    }
+    .txtd2{
+        position: relative;
+       text-align: center;
+       left: -20px;
+    }
+    .dd2{
+        position: relative;
+        width: 400px;
+        left: -15px;
+        top: -30px;
+    }
+    .rs{
+        position: relative;
+        left: 
+    15px;
+    top: -170px;
+        width: 350px;
+        font-size: 25px;
+    }
+    .ftbb{ z-index: 100;
+        opacity: 1;
+        position: relative;
+        top: 70px;
+    }
+    .logo1{
+        position: relative;
+        top: -70px;
+    }
+    .form{
+       height: 250px;
+    }
+    .utxt{
+        position: relative;
+        left: 100px;
+    }
+    .user img{
+        position: relative;
+        left: 20px; top: -20px;
+        width: 17%;
+    }
+    .pro{
+        position: relative;
+        top: -77px;
+    }
+    .russ{ top: -80px;
+        position: relative;
+        left: 35px;
+    }
+    .rus{ top: -80px;
+        position: relative;
+        left: 35px;
+    }
+    .txtd2{
+        position: relative;
+        top:-1px;
+    }
+    .ftbb{
+        top: -120px;
+    }
+    .text1{ position: relative;
+        left: 8px; top: -80px;
+        font-size: 13px;
+        position: relative;
+    }
+    .kart{
+        width: 400px;
+    }
+    .kart1 img{ 
+        min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    
+    }
+    .kart2{ font-size: 12px; width: 180px;
+        position: relative;
+        left:197px; top: -221px;
+    }
+    .kart4{ font-size: 13px;width: 180px;
+        position: relative;
+        left: 1px;
+    }
+    .kart4 h1{
+        font-size: 14px;
+    }
+    .img7{
+        
+    }
+    .kart3{
+        padding: 10px 10px 10px 10px;
+        font-size: 15px;
+    }.burger img{ position: relative; width: 6%;
+        left: 300px;
+        top: -163px;
+        margin-top: 30px;
+        opacity: 1;
+    }
+    .hdiv{
+        position: relative;
+        top: -1000px;
+    }
+}

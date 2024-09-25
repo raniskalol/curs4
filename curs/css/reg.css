@@ -1,0 +1,399 @@
+.sec{
+    overflow: hidden;
+}
+.burger img{
+    margin-top: -50px;
+    opacity: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+     scroll-behavior: smooth;
+    transition: .3s; 
+    font-family: 'm1';
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'm1';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'm2';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'm3';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'm4';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+
+.ftbb{
+    opacity: 0;
+}
+/*  */
+.a1{ 
+    margin: 0 auto;
+    width: 1900px;
+    height: 970px;
+}
+.a2{ 
+    margin: 0 auto;
+    width: 1400px;
+    height: 5570px;
+}
+header{ margin: 0 auto;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.hbtn{font-size: 25px;
+    position: relative;
+    left: 360px;
+    top: -25px;
+    margin-left: 50px;
+}
+.logo{ left: 20px;
+    position: relative;
+    top: 20px;
+}
+.hbtn:hover{ transition-duration: 0s;
+    border-bottom: 2px solid #E93400;
+}
+
+* {box-sizing: border-box;}
+
+.logo1{top: -75px;
+    position: relative;
+    left: 1230px;
+    padding-left: -15px;
+
+}
+
+.log1 img:hover{
+    transform: scale(1.1);
+
+}
+button:hover{
+    
+    background-color: #ff5c2f;
+}
+.btn{
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #E93400;
+    border-radius: 10px;
+}
+.btn1{ 
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #FF9901;
+    border-radius: 10px;
+}
+.btn:hover{
+    
+}
+.buttons{ text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+
+
+
+/*  */
+
+
+.login-page { position: relative;
+    top: -60px;
+  width: 460px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #929292;
+  max-width: 460px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Montserrat", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.btt  {
+    font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #E93400;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  
+  
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #df1414;
+}
+.form .message {font-family: "Montserrat", sans-serif;
+  margin: 15px 0 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+.form .message a {font-family: "Montserrat", sans-serif;
+  color: #E93400;
+  text-decoration: none;
+}
+
+/* * FOOOTER */ 
+.rs{ text-align: center;font-size: 25px;
+    margin-top: 200px;
+}
+
+.io{
+    padding: 21px 40px 21px 40px;
+    background-color: #FF9901;
+    color: white;
+    position: relative;
+    
+    top: 60px;
+    font-size: 21px;
+    font-family: m4;
+    border-radius: 15px;
+}
+footer{ width: 1400px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: -170px;
+}
+.ftx1{position: relative;
+    left: 25px;
+    top: 15px;
+    width: 250px;
+    font-size: 13px;
+
+}
+.ftx2{ 
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+.ftx4 { font-size: 17px;
+    margin-top: 5px;
+    position: relative;
+    left: 400px;
+    top: -130px;
+}
+.ftx3 { margin-left: 50px; text-align: center;
+    top: 40px;
+    position: relative;
+    left: -120px;
+    display: inline-block;
+}
+.ftx5 a{ font-size: 18px;
+    font-family: m4;
+    margin-top: 5px;
+    position: relative;
+    left: 400px;
+    top: -130px;
+}
+.kont{position: relative;
+    left: 560px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+color: #ffffff;
+top: -235px;
+}
+.kont p4{
+    font-size: 14px;
+    color: #7e7e7e;
+    position: relative;
+    
+    
+}
+.kont p2{
+    position: relative;
+    top: 15px; 
+
+    
+}
+.kont p3{
+    position: relative;
+    top: 30px;
+    
+}
+.kont p5{
+    position: relative;
+    top: 15px; font-size: 14px;
+    color: #7e7e7e;
+
+    
+}
+.logoos{
+    position: relative;
+    top: 40px;
+    
+}
+.logoos img{
+    width: 3%;
+}
+.logoos img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.ftx3 { margin-left: 50px; text-align: center;
+    top: 40px;
+    position: relative;
+    left: -220px;
+    display: inline-block;
+}
+@media screen and (max-width: 480px) {
+
+
+    .a1{
+        width: 400px;
+    }
+    .a2{
+        width: 400px;
+    }
+    header{
+    width: 400px;
+    
+    }
+    .hbtn{ position: relative;
+        margin-left: 5px;
+        left:150px;
+        top: -10px;
+        font-size: 12px;
+    }
+    .logo img{
+    
+        width: 30%;
+    }
+    .search{
+        width: 60px;
+    }
+    form{ left: -30px;
+        top:30px;
+        width: 300px;
+        height: 110px;
+    
+    }
+    input{ height: 40px;
+        font-size: 21px;
+    }
+    button{
+        width: 40px;
+        height: 40px;
+    }
+    .buttons{
+        top: 200px;
+    }
+    button img{ position: relative;
+        top: 3px;
+        width: 15px;
+        height: 15px;
+    }
+    input{ padding-left: 0px;
+        font-size: 15px;
+    }
+    .logo1{ top: -70px;
+        position: relative;
+        left: 340px;
+    }
+    .logo1 img{ display: flex; 
+        width:25px;
+        height: 25px;
+    }
+    .fon img{
+        width: 400px;
+    }
+    .buttons{
+        position: relative;
+        left: 10000px;
+    }
+    .men{ top: -100px;
+        position: relative;
+        left: -50px;
+    }
+    .ftbb{ text-align: center;
+        opacity: 1;
+        position: relative;
+        top: -1500px;
+        left: -15px;
+    }
+    footer{
+        position: relative;
+        left: 1000px;
+    }
+    .a1{
+        height:680px;
+    }
+    .txtd{ left: 30px;
+        top: -100px;
+
+    }
+    .txtd1{left: 30px;
+        top: -100px;
+    }
+    .cardd{ margin-bottom: 550px;
+        width: 400px; position: relative;
+        left: -15px; top: -170px;
+    }
+    .card{ margin: 5px 5px 5px 5px;
+        width: 150px;
+    }
+    .txtd2{
+        position: relative;
+       text-align: center;
+       left: -20px;
+    }
+    .dd2{
+        position: relative;
+        width: 400px;
+        left: -15px;
+        top: -30px;
+    }
+    .rs{
+        position: relative;
+        left: 
+    15px;
+    top: -170px;
+        width: 350px;
+        font-size: 25px;
+    }
+    .ftbb{ z-index: 100;
+        opacity: 1;
+        position: relative;
+        top: -40px;
+    }
+    .logo1{
+        position: relative;
+        top: -45px;
+    }
+    .form{
+       height: 430px; top: 50px;
+    }
+}
